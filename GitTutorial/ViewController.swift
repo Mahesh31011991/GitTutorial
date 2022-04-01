@@ -14,8 +14,13 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         print(message)
         // Do any additional setup after loading the view.
+        
+        print(reverse(text: "Stressed"))
     }
 
+    func reverse(text:String) ->String{
+        return String(text.reversed())
+    }
 
 }
 
